@@ -142,12 +142,34 @@
 			]
 		},
 		{
+			"name": "Idris Syntax",
+			"details": "https://github.com/tellnobody1/sublime-idris-syntax",
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Idyll Lang Snippets",
 			"details": "https://github.com/fhightower/idyll-snippets",
 			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Idyll-Syntax",
+			"details": "https://github.com/idyll-lang/idyll-sublime-syntax-highlighter",
+			"homepage": "https://idyll-lang.org/",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -169,6 +191,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Ignore Unable to Open File Error",
+			"details": "https://github.com/everyonesdesign/IgnoreErrorUnableToOpenFile",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -201,18 +233,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "iLorem",
-			"details": "https://github.com/imasood/iLorem",
-			"labels": ["lorem", "ilorem", "loremipsum", "farsi(persian)", "english", "italian", "spanish", "polski"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
-					"tags": true
 				}
 			]
 		},
@@ -257,6 +277,30 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms":["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ImagePreview",
+			"previous_names": ["Hover Image Preview"],
+			"description": "The Sublime Text image previewing plugin",
+			"labels": ["hover", "image", "preview", "file", "url"],
+			"details": "https://github.com/alvesjtiago/hover-preview",
+			"releases": [
+				{
+					"sublime_text": ">=3124",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Imaginarium",
+			"details": "https://github.com/ethanrobison/imaginarium_sublimesyntax",
+			"description": "Syntax highlighting for Imaginarium",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -330,7 +374,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -399,12 +443,23 @@
 		},
 		{
 			"name": "Incomprehensible Ex",
-			"details": "https://github.com/victoreduardobarreto/Incomprehensible-ex",
+			"details": "https://github.com/barretov/Incomprehensible-ex",
 			"author": "Victor Eduardo Barreto",
 			"labels": ["extension", "convert", "txt", "doc", "docx", "xlsx", "pdf", "epub"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Increment Decrement",
+			"details": "https://github.com/cgjosephlee/increment_decrement",
+			"author": "cgjosephlee",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -437,7 +492,7 @@
 		{
 			"name": "Indent and braces",
 			"description": "Indent selection and wrap it in braces.",
-			"author": "Simon Epskamp (Epskampie)",
+			"author": "Epskampie",
 			"details": "https://github.com/Epskampie/sublime_indent_and_braces",
 			"labels": ["text manipulation"],
 			"releases": [
@@ -520,6 +575,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Indentor",
+			"details": "https://github.com/omkarjc27/sublime_indentor",
+			"labels": ["convert", "converting", "formatting", "indent", "language_syntax", "scope"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -703,16 +769,6 @@
 			]
 		},
 		{
-			"name": "Insert Filepath",
-			"details": "https://github.com/Bakke/Insert-Filepath",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Insert Nums",
 			"author": ["jbrooksuk", "FichteFoll"],
 			"details": "https://github.com/jbrooksuk/InsertNums",
@@ -748,19 +804,8 @@
 			]
 		},
 		{
-			"name": "Inspr",
-			"details": "https://github.com/wzhix/inspr",
-			"labels": ["translate", "chinese", "naming"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Instacode",
-			"details": "https://github.com/Ndushi/InstacodeSublime",
+			"details": "https://github.com/lindskogen/InstacodeSublime",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -773,23 +818,24 @@
 			]
 		},
 		{
-			"name": "InstaGoogling",
-			"details": "https://github.com/Ivanca/InstaGoogling",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Intel HEX",
 			"details": "https://github.com/seppestas/intel-hex-syntax",
 			"labels": ["language syntax", "hexadecimal"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Intellekt",
+			"details": "https://github.com/tushortz/intellekt",
+			"labels": ["auto-complete", "completion", "help", "hint", "java", "python"],
+			"author":"Taiwo Kareem",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -817,11 +863,32 @@
 			]
 		},
 		{
+			"name": "INTENS Language",
+			"details": "https://github.com/anticultist/sublime-intenslang",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Interactive Data Language (IDL)",
 			"details": "https://github.com/cschreib/sublime-idl",
 			"releases": [
 				{
 					"sublime_text": ">=3114",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "International Keymap",
+			"details": "https://bitbucket.org/hxss/internationalkeymap",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -890,7 +957,7 @@
 		},
 		{
 			"name": "Invisible Tabs Spaces Switcher",
-			"details": "https://github.com/isar0se/InvisibleTabsSpacesSwitcher",
+			"details": "https://github.com/iynere/InvisibleTabsSpacesSwitcher",
 			"labels": ["formatting", "text manipulation"],
 			"releases": [
 				{
@@ -906,17 +973,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "io Node Framework",
-			"details": "https://github.com/justind000/ionode_sublime_plugin",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["windows", "linux"],
 					"tags": true
 				}
 			]
@@ -956,7 +1012,7 @@
 		},
 		{
 			"name": "Ionic Snippets",
-			"details": "https://github.com/PixelDropInc/ionic-snippets-sublime-plugin",
+			"details": "https://github.com/TenthGeek/ionic-snippets-sublime-plugin",
 			"labels": ["snippets", "markup"],
 			"releases": [
 				{
@@ -1033,18 +1089,6 @@
 			]
 		},
 		{
-			"name": "iReset",
-			"details": "https://github.com/imasood/iReset",
-			"labels": ["css reset", "css", "ireset", "normalize", "html5doctor"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["osx", "linux", "windows"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Iridis Colour Scheme",
 			"details": "https://github.com/gingerBill/iridis-colour-scheme",
 			"labels": ["color scheme", "colour scheme"],
@@ -1079,7 +1123,7 @@
 		},
 		{
 			"name": "Ironman Color Scheme",
-			"details": "https://github.com/firerishi/ironman-color-scheme",
+			"details": "https://github.com/sri-ni/ironman-color-scheme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -1100,6 +1144,16 @@
 			]
 		},
 		{
+			"name": "IrView",
+			"details": "https://github.com/guilhermeleobas/IrView",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ISML",
 			"details": "https://github.com/aearly/isml-tmlanguage",
 			"releases": [
@@ -1111,17 +1165,17 @@
 		},
 		{
 			"name": "isort",
-			"details": "https://github.com/thijsdezoete/sublime-text-isort-plugin",
+			"details": "https://github.com/asfaltboy/sublime-text-isort-plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "ITDCHelper",
-			"details": "https://github.com/akalongman/sublimetext-itdchelper",
+			"details": "https://github.com/itdc/sublimetext-itdchelper",
 			"author": "Avtandil Kikabidze",
 			"releases": [
 				{

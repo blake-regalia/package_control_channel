@@ -2,17 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "J Language",
-			"details": "https://github.com/bcj/JSyntax",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Jack",
 			"details": "https://github.com/swarn/sublime-jack",
 			"labels": ["language syntax"],
@@ -68,11 +57,12 @@
 			]
 		},
 		{
-			"name": "Jai",
-			"details": "https://github.com/GreenLightning/sublime-jai",
+			"name": "JaiTools",
+			"previous_names": ["Jai"],
+			"details": "https://github.com/RobinWragg/JaiTools",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -120,8 +110,19 @@
 			]
 		},
 		{
+			"name": "JapanWordStop",
+			"details": "https://github.com/woodmix/JapanWordStop",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Jasmin JVM Assembler",
-			"details": "https://github.com/atmarksharp/jasmin-sublime",
+			"details": "https://github.com/funatsufumiya/jasmin-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -197,8 +198,19 @@
 		},
 		{
 			"name": "Jasmine Scaffold",
-			"details": "https://github.com/swirlycheetah/jasmine-scaffold-sublime-text",
+			"details": "https://github.com/chrisdwheatley/jasmine-scaffold-sublime-text",
 			"labels": ["Jasmine", "javascript", "testing", "unit test"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jasonette Completions",
+			"details": "https://github.com/BarryMode/sublime-jasonette-snippets",
+			"labels": ["jasonette", "completions", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -247,7 +259,7 @@
 		{
 			"name": "JavaIME",
 			"details": "https://github.com/tushortz/JavaIME",
-			"labels": ["java","snippets", "auto-complete", "completion", "autocomplete", "snippet", "completion"],
+			"labels": ["java","snippets", "auto-complete", "completion", "autocomplete", "snippet"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -352,16 +364,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "JavaScript Multiline",
-			"details": "https://github.com/metatribal/sublime-jsmultiline",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -476,6 +478,17 @@
 			]
 		},
 		{
+			"name": "JavaScriptTemplateLiteralEnhancements",
+			"details": "https://github.com/phts/JavaScriptTemplateLiteralEnhancements",
+			"labels": ["javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Javatar",
 			"details": "https://github.com/spywhere/Javatar",
 			"labels": ["build system", "java"],
@@ -528,6 +541,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "JEB Script Development Helper",
+			"details": "https://github.com/pnfsoftware/jeb_scriptdev_helper",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -596,6 +619,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Jenkinsfile",
+			"details": "https://github.com/june07/sublime-Jenkinsfile",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -759,7 +793,7 @@
 		},
 		{
 			"name": "jQuery Mobile Demos",
-			"details": "https://github.com/coderyang/jQueryMobileDemos",
+			"details": "https://github.com/maousan/jQueryMobileDemos",
 			"labels": ["jquery mobile"],
 			"releases": [
 				{
@@ -834,16 +868,6 @@
 			]
 		},
 		{
-			"name": "JS Coverage",
-			"details": "https://github.com/genbit/SublimeJSCoverage",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "JS Minify",
 			"details": "https://github.com/adampresley/sublime-js-minify",
 			"releases": [
@@ -876,16 +900,6 @@
 			]
 		},
 		{
-			"name": "JS-firebug",
-			"details": "https://github.com/sebcl/JS-firebug",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "JS2Coffee",
 			"details": "https://github.com/aziz/sublime-js2coffee",
 			"releases": [
@@ -896,7 +910,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/jden/JsBDD",
+			"details": "https://github.com/junosuarez/JsBDD",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1007,6 +1021,16 @@
 			]
 		},
 		{
+			"name": "JSKit",
+			"details": "https://github.com/breakside/sublime-jskit",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSLint",
 			"details": "https://github.com/73rhodes/Sublime-JSLint",
 			"labels": ["linting"],
@@ -1039,6 +1063,17 @@
 			]
 		},
 		{
+			"name": "JsModules",
+			"details": "https://github.com/luwes/SublimeJsModules",
+			"labels": ["javascript", "convert", "cjs", "es6"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JSON Key-Value",
 			"details": "https://github.com/aurule/json-kv",
 			"labels": ["language syntax", "json"],
@@ -1063,6 +1098,16 @@
 		{
 			"name": "JSON Reindent",
 			"details": "https://github.com/ThomasKliszowski/json_reindent",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSON Stringify",
+			"details": "https://github.com/Nadock/json_stringify",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1113,24 +1158,12 @@
 			]
 		},
 		{
-			"name": "JSON2Go",
-			"details": "https://github.com/everCyan/JSON2Go",
-			"labels": ["json", "urllib.parse"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": ["osx"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "JSONComma",
-			"details": "https://github.com/math2001/JSONComma",
+			"details": "https://github.com/jsoncomma/sublime-jsoncomma",
 			"labels": ["JSON", "comma", "text manipulation", "formatting", "formatter", "trailing"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1253,11 +1286,15 @@
 		},
 		{
 			"name": "Julia",
-			"details": "https://github.com/epitron/Julia-sublime",
+			"details": "https://github.com/JuliaEditorSupport/Julia-sublime",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<4000",
+					"tags": "st3-v"
+				},
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},
@@ -1274,11 +1311,12 @@
 		},
 		{
 			"name": "JumpTo",
-			"details": "https://github.com/JonasPf/JumpTo",
+			"details": "https://github.com/SublimeText/JumpTo",
+			"author": ["JonasPf", "FichteFoll"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1305,19 +1343,8 @@
 			]
 		},
 		{
-			"name": "Junos Snippets",
-			"details": "https://github.com/pewpewp3w/sublime-juniper-snippets",
-			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Just Paste",
-			"details": "https://github.com/Apathetic012/JustPaste",
+			"details": "https://github.com/jcldavid/JustPaste",
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1338,7 +1365,7 @@
 		},
 		{
 			"name": "JXA Build System",
-			"details": "https://github.com/dharma-guardian/JXASublimeText",
+			"details": "https://github.com/eppfel/JXASublimeText",
 			"labels": ["build system", "editor emulation", "javascript", "open scripting architecture"],
 			"releases": [
 				{
